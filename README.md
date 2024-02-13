@@ -29,5 +29,5 @@ Este proyecto consistió en el desarrollo de un sitio web para una institución 
 ¡Si tienes alguna pregunta o comentario, no dudes en contactarme!
 
 - Email: [isaacnabortorres@gmail.com](mailto:isaacnabortorres@gmail.com)
-- LinkedIn: [Isaac Nabor]([https://www.linkedin.com/in/tunombre/](https://www.linkedin.com/in/isaacnabor/))
+- LinkedIn: [Isaac Nabor](https://www.linkedin.com/in/isaacnabor/)
 - GitHub: [Zack Sirrush](https://github.com/ZackSirrush)

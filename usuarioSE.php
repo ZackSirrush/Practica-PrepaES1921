@@ -1,0 +1,73 @@
+
+<?php
+session_start(); //Sí existe una sesión
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <title>Mi espacio: SE</title>
+        <link href="css/headerfooter.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+        <script src="https://kit.fontawesome.com/e8b7e951e4.js" crossorigin="anonymous"></script>          
+    </head>
+    
+    <body>
+        <!-- Menú de BOOTSTRAP -->
+
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
+                <a class="navbar-brand"><img src="imagenes/logo.jpg" width="50" alt="logo Preparatoria ES1921013978"></a>
+                <a class="navbar-brand" href="index.html" width="50" alt="logo Preparatoria ES1921013978"><strong>Preparatoria ES1921013978</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="usuarioSE.php">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="preinscripcionSE.php">Preinscribir asignatura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consultaSE.php">Consultar inscripción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="salir.php">Salir</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <h1>Mi Espacio: Servicios escolares</h1>
+
+        <footer class="footer">            
+            <div class="grupo1">
+                <div class="box">
+                    <h2>Dirección</h2>
+                        <p>Av. del Ferrocarril S/N, La Cañada, Querétaro, Qro, C.P. 76240</p>
+                </div>
+                <div class="box">
+                    <h2>Contacto</h2>
+                    <div class="contacto">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+                    
+            <div class="grupo2">
+                <small>&copy; 2023 <b>Universidad ES1921013978 </b> - Todos los derechos reservados.</small>
+            </div>       
+        </footer>
+    </body>
+    
+</html>

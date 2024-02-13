@@ -1,0 +1,77 @@
+/*::::::::::::::BARRA DE NAVEGACIÓN::::::::::::::*/
+.navbar{
+    background-color:#c4d7f8;   
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;  
+}
+
+header{
+    height: 100%;
+}
+
+/*::::::::::::::PIE DE PÁGINA::::::::::::::*/
+.footer{
+    width:100%;
+    background:#c4d7f8;
+}
+
+.footer .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:30px;
+    padding: 45px 0px;
+
+}
+
+.footer .grupo1 .box h2{
+    color: #033076;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.footer .grupo1 .box p{
+    color: #45556e;
+    margin-bottom: 10px;
+}
+
+.footer .grupo1 .contacto a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #033076;
+    margin-right: 50px;
+    background-color: #45556e;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.footer .grupo1 .contacto a:hover{
+    color: #91e4fb;
+}
+
+.footer .grupo2{
+    background-color:#0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer .grupo2 small{
+    font-size: 15px;
+}
+
+/*::::::::::::::MEDIA QUERIES::::::::::::::*/
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display: none;
+    }
+}
